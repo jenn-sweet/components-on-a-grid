@@ -18,7 +18,7 @@ body {
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas:
   "banner banner"
-  "col1 col1"
+  "col1 col1";
 }
 
 img {
@@ -42,7 +42,7 @@ header {
   grid-area: banner;
 }
 
-nav{
+nav {
   grid-column: 2 / -1;
   grid-row: 1;
 }
@@ -71,7 +71,7 @@ figure:nth-last-of-type(2) {
   grid-area: col2;
 }
 
-h2{
+h2 {
   color: #30658d;
   font-family: "Patua One", sans-serif;
 }
