@@ -46,7 +46,7 @@ header {
 }
 
 nav {
-  grid-column: 2 / -1;
+  grid-column: 2/-1;
   grid-row: 1;
 }
 
@@ -64,6 +64,10 @@ nav a {
 
 main {
   display: contents;
+}
+
+figure {
+  margin: 0;
 }
 
 figure:nth-of-type(1) {
