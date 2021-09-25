@@ -18,7 +18,8 @@ body {
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas:
   "banner banner"
-  "col1 col1";
+  "col1   col1";
+  gap: 1rem;
 }
 
 img {
@@ -31,11 +32,13 @@ header {
 }
 
 .logo {
-  width: 100%;
+  width: 14rem;
   grid-column: 1;
   grid-row: 1;
   align-self: end;
   z-index: 1;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
 }
 
 .pano {
