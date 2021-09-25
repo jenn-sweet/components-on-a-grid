@@ -56,3 +56,15 @@ nav a {
   font-size: 2rem;
   color: #fff;
 }
+
+main {
+  display: contents;
+}
+
+figure:nth-of-type(1) {
+  grid-area: col1;
+  }
+
+  figure:nth-last-of-type(2) {
+    grid-area: col2;
+    }
