@@ -17,8 +17,8 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas:
-  "banner banner"
-  "col1   col1";
+    "banner banner"
+    "col1   col1";
   gap: 1rem;
 }
 
@@ -77,4 +77,8 @@ figure:nth-last-of-type(2) {
 h2 {
   color: #30658d;
   font-family: "Patua One", sans-serif;
+}
+
+p {
+  margin: 0;
 }
