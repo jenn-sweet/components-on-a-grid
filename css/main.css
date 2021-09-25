@@ -14,10 +14,10 @@ body {
   background-color: #f2fled;
   margin: 1rem;
   padding: 1rem;
-grid-template-columns: repeat(2,1fr);
-grid-template-areas:
-"banner banner"
-"col1 col1"
+  grid-template-columns: repeat(2,1fr);
+  grid-template-areas:
+  "banner banner"
+  "col1 col1"
 }
 
 img {
@@ -27,4 +27,32 @@ img {
 header {
   /* Remove the <header> box and allow us to directly apply header’s children to the grid. */
   display: contents;
+}
+
+.logo {
+  grid-column: 1;
+  grid-row: 1;
+  align-self: end;
+  z-index: 1;
+}
+
+.pano {
+  grid-area: banner;
+}
+
+nav{
+  grid-column: 2 / -1;
+  grid-row: 1;
+}
+
+nav ul {
+  display: flex;
+  justify-content: end;
+  list-style: none;
+}
+
+nav a {
+  font-family: "Patua One", sans-serif;
+  font-size: 2rem;
+  color: #fff;
 }
