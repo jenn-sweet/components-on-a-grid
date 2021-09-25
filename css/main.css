@@ -14,7 +14,10 @@ body {
   background-color: #f2fled;
   margin: 1rem;
   padding: 1rem;
-
+grid-template-columns: repeat(2,1fr);
+grid-template-areas:
+"banner banner"
+"col1 col1"
 }
 
 img {
