@@ -18,7 +18,7 @@ body {
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas:
     "banner banner"
-    "col1   col1";
+    "col1   col2";
   gap: 1rem;
 }
 
