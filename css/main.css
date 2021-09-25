@@ -58,6 +58,10 @@ nav ul {
   padding: 0;
 }
 
+nav li {
+  padding: 1rem;
+}
+
 nav a {
   font-family: "Patua One", sans-serif;
   font-size: 2rem;
@@ -73,11 +77,11 @@ figure {
 }
 
 figure:nth-of-type(1) {
-  grid-area: col1;
+  grid-area: col2;
 }
 
 figure:nth-last-of-type(2) {
-  grid-area: col2;
+  grid-area: col1;
 }
 
 h2 {
